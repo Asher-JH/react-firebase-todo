@@ -18,8 +18,8 @@ const Router: React.FC = () => {
                 <Route path="sign-in" element={<SignIn />} />
                 <Route path="sign-up" element={<SignUp />} />
                 <Route path="dashboard" element={<Dashboard />} />
-                <Route path="to-dos" element={<Todos />} />
-                <Route path="not-to-dos" element={<NotTodos />} />
+                <Route path="todos" element={<Todos />} />
+                <Route path="not-todos" element={<NotTodos />} />
                 <Route path="profile" element={<Profile />} />
                 <Route path="settings" element={<Settings />} />
                 <Route path="*" element={<NotFound />} />
